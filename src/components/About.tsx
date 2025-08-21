@@ -3,10 +3,10 @@ import { Cpu, Cog, Zap, Users } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
-    { icon: Cpu, title: 'PLC Programming', desc: 'Delta PLC, Ladder Logic, HMI Design' },
-    { icon: Cog, title: 'Industrial Automation', desc: 'VFD Control, Modbus RTU, MQTT IoT' },
-    { icon: Zap, title: 'Embedded Systems', desc: 'Arduino, ESP32, 3D Design & Printing' },
-    { icon: Users, title: 'Mentoring', desc: 'Guiding Startups & Students in Tech' },
+    { icon: Cpu, title: 'Embedded Systems', desc: 'ESP8266, ESP32, Raspberry Pi, Banana Pi' },
+    { icon: Cog, title: 'Industrial Systems', desc: 'PLC, VFD, HMI, SCADA, RS-485 Modbus' },
+    { icon: Zap, title: 'IoT & Protocols', desc: 'MQTT, Modbus RTU/TCP, Twilio API, Alexa API' },
+    { icon: Users, title: 'Robotics', desc: 'Mobile robots, Scissor lifts, Automation arms' },
   ];
 
   return (
@@ -22,25 +22,26 @@ const About: React.FC = () => {
             <div className="space-y-6 animate-fade-in-up">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  I am <strong>Janil Mistry</strong>, a Robotics Engineer with hands-on experience in automation, 
-                  embedded systems, and product development. My expertise spans PLC programming, HMI design, 
-                  VFD configuration, Arduino systems, 3D design, and IoT integration.
+                  I am <strong>Janil Mistry</strong>, a Robotics & IoT Engineer with hands-on experience in 
+                  Embedded Systems, RS-485 Modbus, ESP32/ESP8266, Industrial Automation, and Smart Systems. 
+                  I have worked on industrial projects, IoT solutions, automation systems, and robotics.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  In 2025, I completed a six-week industrial internship at <strong>Spark Automation</strong>, 
-                  where I worked on real-world projects involving control panel design, Modbus RTU communication, 
-                  and MQTT-based IoT systems.
+                  I have participated in national-level competitions and government innovation events, including 
+                  organizing the <strong>Road Safety Innovation Challenge 2025</strong> with Government Polytechnic, Ahmedabad.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  I am passionate about bridging the gap between engineering concepts and practical solutions, 
-                  and I regularly guide students, startups, and hobbyists in adopting emerging technologies.
+                  My expertise includes multiple internships at <strong>Spark Automation</strong> (60 days), 
+                  <strong>AT Project & Innovation Lab</strong> (15 days), and <strong>KSV Drone Program</strong> (30 days), 
+                  where I gained experience in Modbus, PLC, VFD, HMI, IoT, Robotics, and UAV systems.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  I also founded <strong>SmartAutobots</strong>, a platform that provides training, builds prototypes, 
-                  and delivers accessible automation solutions for industries and innovators alike.
+                  I founded <strong>SmartAutoBots</strong>, an Innovation & Learning Platform focused on Robotics, 
+                  IoT, and Automation, helping students, schools, and enthusiasts learn, build, and innovate using 
+                  electronics and smart technologies.
                 </p>
               </div>
             </div>

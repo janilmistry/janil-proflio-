@@ -9,23 +9,23 @@ const Achievements: React.FC<AchievementsProps> = ({ openLightbox }) => {
   const achievements = [
     {
       icon: Trophy,
-      title: 'Robo Sumo Competition',
-      description: 'Participated in Prevoyance\'25 at Nirma University',
-      details: 'Demonstrated expertise in competitive robotics with precision control and strategic programming',
+      title: 'Competition Achievements',
+      description: 'Multiple robotics competition successes',
+      details: 'PST PToP Vadodara (Participated), Robo Sumo (Top 5), Robo Race (Top 4) - Demonstrated expertise in competitive robotics',
       image: 'https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       icon: Briefcase,
-      title: 'Spark Automation Internship',
-      description: '6-week industrial internship experience',
-      details: 'Gained hands-on experience in PLC programming, HMI design, VFD setup, Modbus RTU, and MQTT protocols',
+      title: 'Professional Internships',
+      description: 'Multiple industry internship experiences',
+      details: 'Spark Automation (60 days), AT Project & Innovation Lab (15 days), KSV Drone Program (30 days) - Gained expertise in Modbus, PLC, VFD, HMI, IoT, Robotics, and UAV systems',
       image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       icon: Award,
-      title: 'Technical Expertise',
-      description: 'Comprehensive skill development',
-      details: 'Mastered control panel design, industrial wiring, embedded systems, and IoT integration',
+      title: 'Innovation Leadership',
+      description: 'Road Safety Innovation Challenge 2025',
+      details: 'Organized major innovation event with Government Polytechnic, Ahmedabad, demonstrating leadership in technology and social impact initiatives',
       image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
   ];

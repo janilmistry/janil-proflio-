@@ -18,10 +18,10 @@ const Hero: React.FC = () => {
             Janil Mistry
           </h1>
           <p className="text-xl md:text-2xl text-blue-200 mb-8 animate-fade-in-delay-1">
-            Innovating Robotics & Industrial Automation
+            Robotics & IoT Engineer
           </p>
           <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto animate-fade-in-delay-2">
-            Robotics Engineer passionate about bridging engineering concepts with practical automation solutions
+            I am a Robotics & IoT Engineer with hands-on experience in Embedded Systems, RS-485 Modbus, ESP32/ESP8266, Industrial Automation, and Smart Systems. I have worked on industrial projects, IoT solutions, automation systems, and robotics, along with participation in national-level competitions and government innovation events.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-3">
