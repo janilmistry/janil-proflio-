@@ -94,21 +94,6 @@ const Projects: React.FC<ProjectsProps> = ({ openLightbox }) => {
             </p>
           </div>
 
-          <div className="text-center py-16">
-            <div className="bg-gray-50 rounded-xl p-12 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Projects Coming Soon</h3>
-              <p className="text-gray-600 mb-6">
-                I'm currently working on documenting my latest PLC and industrial automation projects. 
-                Check back soon for detailed project showcases and technical implementations.
-              </p>
-              <a
-                href="#contact"
-                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
-              >
-                Contact for Project Details
-              </a>
-            </div>
-          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-500 transform animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -144,35 +129,6 @@ const Projects: React.FC<ProjectsProps> = ({ openLightbox }) => {
             ))}
           </div>
 
-          {projects.length > 0 ? (
-          <div className="text-center py-16">
-            <div className="bg-gray-50 rounded-xl p-12 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Projects Coming Soon</h3>
-              <p className="text-gray-600 mb-6">
-                I'm currently working on documenting my latest PLC and industrial automation projects. 
-                Check back soon for detailed project showcases and technical implementations.
-              </p>
-              <a
-                href="#contact"
-                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
-              >
-                Contact for Project Details
-              </a>
-            </div>
-          </div>
-        ) : null}
-
-          <div className="text-center mt-12 p-6 bg-blue-50 rounded-xl">
-            <p className="text-gray-700 mb-4">
-              Interested in detailed technical specifications, source code, or collaboration opportunities?
-            </p>
-            <a
-              href="#contact"
-              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
-            >
-              Get in Touch for Full Project Details
-            </a>
-          </div>
         </div>
       </div>
     </section>
