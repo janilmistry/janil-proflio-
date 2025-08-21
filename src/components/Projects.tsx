@@ -135,6 +135,15 @@ const Projects: React.FC<ProjectsProps> = ({ openLightbox }) => {
                       requestedProject === project.title 
                         ? 'bg-green-600 text-white' 
                         : 'bg-blue-600 text-white hover:bg-blue-700'
+                    }`}
+                  >
+                    {requestedProject === project.title ? 'Request Sent!' : 'Request Info'}
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
           {projects.length > 0 ? (
           <div className="text-center py-16">
             <div className="bg-gray-50 rounded-xl p-12 max-w-2xl mx-auto">
@@ -151,7 +160,7 @@ const Projects: React.FC<ProjectsProps> = ({ openLightbox }) => {
               </a>
             </div>
           </div>
-        )}
+        ) : null}
 
           <div className="text-center mt-12 p-6 bg-blue-50 rounded-xl">
             <p className="text-gray-700 mb-4">
